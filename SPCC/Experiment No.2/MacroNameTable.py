@@ -49,7 +49,7 @@ def pass1(sent_tokens):
 
     return int_code, macro_name_table
 
-source_file = open('/Users/ankitbhavarthe/Desktop/SPCC/Experiment No.2/Macro.txt', 'r')
+source_file = open('Macro.txt', 'r')
 sent_tokens = source_file.readlines()
 source_file.close()
 
