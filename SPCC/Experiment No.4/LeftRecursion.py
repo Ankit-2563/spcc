@@ -16,7 +16,7 @@ def eliminate_left_recursion(grammar):
 
 def read_grammar_from_file(filename):
     grammar = {}
-    with open('/Users/ankitbhavarthe/Desktop/SPCC/Experiment No.4/Grammar.txt', 'r') as file:
+    with open('Grammar.txt', 'r') as file:
         for line in file:
             non_terminal, rhs = line.strip().split('->')
             grammar[non_terminal.strip()] = [symbol.strip() for symbol in rhs.split('|')]
