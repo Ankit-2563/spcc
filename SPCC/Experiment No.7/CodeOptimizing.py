@@ -3,7 +3,7 @@ import re
 expr_buffer = []
 optm_code = []
 
-with open(r"/Users/ankitbhavarthe/Desktop/SPCC/Experiment No.7/input.txt") as source:
+with open(r"input.txt") as source:
     code = source.readlines()
     source.close()
 
