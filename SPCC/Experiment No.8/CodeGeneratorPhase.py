@@ -1,6 +1,6 @@
 import re
 
-f = open("/Users/ankitbhavarthe/Desktop/SPCC/Experiment No.8/Intermediate.txt", 'r')
+f = open("Intermediate.txt", 'r')
 lines = f.readlines()
 f.close()
 
